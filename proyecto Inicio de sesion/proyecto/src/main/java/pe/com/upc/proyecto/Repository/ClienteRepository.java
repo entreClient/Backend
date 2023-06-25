@@ -1,8 +1,8 @@
-package pe.com.upc.proyecto.Repository;
+package com.upc.trabajo_final.Trabajo.Final.security.repository;
 
+import com.upc.trabajo_final.Trabajo.Final.security.model.Cliente;
 import org.springframework.data.jpa.repository.JpaRepository;
-import pe.com.upc.proyecto.Entities.Cliente;
 
-public interface ClienteRepository extends JpaRepository<Cliente,Integer> {
+public interface ClienteRepository extends JpaRepository<Cliente, Integer> {
 
 }
